@@ -1,0 +1,13 @@
+﻿@model SaglikProje.Models.Belirti
+@{
+    ViewData["Title"] = "BelirtiEkle";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Belirti Ekle</h1>
+
+<form action="BelirtiEkle" method="post">
+    <label>Belirti Adı</label>
+    <input type="text" name="Belirtiler" />
+    <input type="submit" value="Ekle" />
+</form>

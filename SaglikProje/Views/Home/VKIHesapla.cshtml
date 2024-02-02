@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "VKIHesapla";
+    Layout = "~/Views/Shared/AnaLeyout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <h1 class="text-center mx-auto mt-5">Vücut Kitle İndeksi Hesapla</h1>
+    </div>
+    <form class="mt-5">
+        <div class="col">
+            <input type="text" class="form-control form-control-lg" id="boy" placeholder="Boy (cm)">
+        </div>
+        <div class="col mt-3">
+            <input type="text" class="form-control form-control-lg" id="kg" placeholder="Kilo (kg)">
+        </div>
+        <div class="row">
+            <p class="mx-auto mt-5" style="font-size: 30px;">Vücut Kitle İndeksi:</p>
+        </div>
+        <div class="row">
+            <p class="text indeks mx-auto mt-1" style="font-size: 30px;"></p>
+        </div>
+
+        <div class="row">
+            <p class="mx-auto mt-1" style="font-size: 30px;">Sağlık Durumu :</p>
+        </div>
+        <div class="row">
+            <p class="text durum mx-auto mt-1" style="font-size: 30px;"></p>
+        </div>
+        <div class="row">
+            <input type="submit" class="btn btn-lg btn-outline-dark mx-auto mt-3 " id="hesapla"
+                   value="Hesapla" />
+        </div>
+        <div class="row">
+            <input type="submit" class="btn btn-lg btn-outline-danger mx-auto mt-3" id="sifirla"
+                   value="Sıfırla" />
+        </div>
+    </form>
+</div>
+<div class="row">
+    <img src="~/img/VKI/Vücut Kitle İndeksi.png" class="img-fluid mx-auto col-lg-11 mt-5 ml-3" alt="...">
+</div>
+<script src="~/js/SaglikProjesi.js"></script>

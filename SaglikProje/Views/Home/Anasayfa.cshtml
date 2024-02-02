@@ -1,0 +1,129 @@
+﻿
+@{
+    ViewData["Title"] = "Anasayfa";
+    Layout = "~/Views/Shared/AnaLeyout.cshtml";
+}
+
+<div class="row mt-5 mb-4">
+    <h1 class="mt-5 mx-auto">İlginizi Çekebilir</h1>
+</div>
+<div id="carouselExampleCaptions" class="carousel slide border" data-ride="carousel" style="box-shadow: 5px 5px 5px 5px rgb(158, 157, 157)">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active border">
+            <a href="https://localhost:44397/Hastaliklar/ARDS">
+                <img src="~/img/Anasayfaimg/ARDS.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ARDS</h5>
+                    <p>Akut solunum sıkıntısı sendromu veya ARDS, akciğerlerdeki küçük hava keselerinde (alveoller olarak adlandırılan) sıvılar biriktiğinde meydana gelen inflamatuar bir akciğer hasarıdır. ARDS, akciğerlerin hava ile dolmasını engeller ve kanda tehlikeli derecede düşük oksijen seviyelerine (hipoksemi) neden olur.</p>
+                </div>
+            </a>
+        </div>
+        <div class="carousel-item border">
+            <a href="https://localhost:44397/Hastaliklar/GeceKorlugu">
+                <img src="~/img/Anasayfaimg/Gece Körlüğü.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Gece Körlüğü</h5>
+                    <p>
+                        Gece körlüğü olan insanlar gece ya da loş ışıklı ortamlarda zayıf görüş deneyimi yaşarlar. Hareket etmede ve araç kullanmada zorluk çekerler. Erkeklerde görülme sıklığı kadınlardan daha fazladır.
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="carousel-item border">
+            <a href="https://localhost:44397/Hastaliklar/KusGribi">
+                <img src="~/img/Anasayfaimg/Kuş Gribi.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Kuş Gribi</h5>
+                    <p>Avian İnfluenza, tavuk vebası, pestis avium olarak da bilinen kuş gribi sadece kanatlıları değil, insanları ve diğer hayvanları da enfekte eden viral bir enfeksiyondur. Virüsün çoğu formu kuşlarla sınırlıdır. H5N1, kuş gribinin en yaygın şeklidir. Dünya Sağlık Örgütü’ne göre, H5N1 ise ilk olarak 1997’de insanlarda keşfedildi ve enfekte olanların yaklaşık yüzde 60’ını öldürdü.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+            data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+            data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </button>
+</div>
+<h2 class="text-center mt-5">Yaygın Hastalıklar</h2>
+<div class="row">
+    <div class="col-sm mt-3">
+        <div class="card">
+            <a href="https://localhost:44397/Hastaliklar/Diyabet"><img src="~/img/Hastaliklarimg/Diyabet.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h4 class="text-center">Diyabet</h4>
+                <p class="card-text">
+                    Diyabet, pankreas artık insülin yapamadığında veya vücut ürettiği insülini iyi kullanamadığında ortaya çıkan kronik bir hastalıktır.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm mt-3">
+        <div class="card">
+            <a href="https://localhost:44397/Hastaliklar/Hipertansiyon"><img src="~/img/Hastaliklarimg/Hipertansiyon.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h4 class="text-center">Hipertansiyon</h4>
+                <p class="card-text">
+                    Yüksek tansiyon (HBP) olarak da bilinen Hipertansiyon (HTN veya HT), arterlerdeki kan basıncının sürekli olarak yükseldiği uzun süreli bir tıbbi durumdur.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm mt-3">
+        <div class="card">
+            <a href="https://localhost:44397/Hastaliklar/KalpYetmezligi"><img src="~/img/Hastaliklarimg/Kalp Yetmezliği.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h4 class="text-center">Kalp Yetmezliği</h4>
+                <p class="card-text">
+                    Kalp yetmezliği, bazen konjestif kalp yetmezliği olarak bilinir, kalp kasınızın gerektiği kadar kan pompalamadığı zaman ortaya çıkar.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-5">
+        <div class="card">
+            <a href="https://localhost:44397/Hastaliklar/Astim"><img src="~/img/Hastaliklarimg/Astım.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h4 class="text-center">Astım</h4>
+                <p class="card-text">
+                    Astımı olan kişilerde hava yolları iltihaplanır. Hava yolları çok hassas olduğundan enflamasyon hava yollarını şişirir. Solunum yolları bazı maddelere tepki gösterir.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm mt-5">
+        <div class="card">
+            <a href="https://localhost:44397/Hastaliklar/Nezle"><img src="~/img/Hastaliklarimg/Nezle.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h4 class="text-center">Nezle</h4>
+                <p class="card-text">
+                    Değişik virüslerle oluşabilen, kırıklık burun akıntısı, öksürük gibi belirtilerle seyreden, en fazla bir hafta on gün içinde kendiliğinden iyileşen bulaşıcı bir hastalıktır.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm mt-5">
+        <div class="card">
+            <a href="https://localhost:44397/Hastaliklar/AkcigerKanseri"><img src="~/img/Hastaliklarimg/Akciğer Kanseri.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h4 class="text-center">Akciğer Kanseri</h4>
+                <p class="card-text">
+                    Akciğer kanseri, yapısal olarak normal akciğer dokusundan olan hücrelerin ihtiyaç ve kontrol dışı çoğalarak akciğer içinde bir kitle (tümör) oluşturmasıdır.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
